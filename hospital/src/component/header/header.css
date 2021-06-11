@@ -1,0 +1,46 @@
+
+
+.active {
+        text-decoration:underline;
+    }
+
+    .navbars.active {
+        text-decoration:underline;
+      }
+
+
+      .header1 {
+        z-index:2;
+        color: #333;
+        background-color:white;
+        transform: translateY(0);
+        transition: transform 0.8s ease;
+      }
+
+     
+      
+      .header2 {
+        background-color: rgb(122, 122, 122);
+        color: rgb(240, 206, 206);
+        transform: translateY(10);
+        transition: transform 8s ease;
+        animation: myanimation 3s;
+        opacity: 0.9;
+      }
+
+      @keyframes myanimation {
+        0% {
+          background-color: transparent;
+        }
+        35% {
+          background-color: rgb(146, 146, 146);
+        }
+        100% {
+          background-color: rgb(122, 122, 122);
+        }
+      }
+
+
+
+
+  
